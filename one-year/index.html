@@ -168,7 +168,7 @@
                   <div class="block-content front-p">
 
                      <h2 class="typo">我们在一起</h2>
-                     <span id="elapseClock" class="text-white" style="font-size: 40px;font-weight: 300;"></span>
+                     <span id="elapseClock" class="text-white" style="font-size: 36px;font-weight: 300;"></span>
                   </div>
                </div>
             </div>
@@ -285,7 +285,7 @@
          if (b < 10) { b = "0" + b } f = f % 3600; var d = Math.floor(f / 60);
          if (d < 10) { d = "0" + d } f = f % 60;
          if (f < 10) { f = "0" + f }
-         var a = '<span class="digit">' + g + '</span> 天 <span class="digit">' + b + '</span> 时 <span class="digit">' + d + '</span> 分 <span class="digit">' + f + "</span> 秒"; $("#elapseClock").html(a)
+         var a = '<span class="digit">' + g + '</span> 天 <span class="digit">' + b + '</span> 时 <span class="digit">' + d + '</span> 分 <p class="digit">' + f + "</p> 秒"; $("#elapseClock").html(a)
       };
    </script>
 
